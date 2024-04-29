@@ -36,7 +36,3 @@ This is the implementation code for "Quantifying Point Contributions: A Lightwei
 - The compressed results will be saved in `./SimpTraj`.
 - Query-related files will be saved in `./Val`.
 
-## Reproducibility
-- We provide models for reproducing experimental results on the GeoLife dataset, including T-Bert, GNN-TS, and Diff-TS.
-- Query files and query results for the original dataset used in the experiments are also provided.
-- Run `validation.py` for testing. 
