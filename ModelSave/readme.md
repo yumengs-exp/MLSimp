@@ -1,1 +1,1 @@
-T-bert, diff-ts, and gnn-ts models are save in here.
+T-bert, diff-ts, and gnn-ts models save in here.
