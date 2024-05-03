@@ -22,16 +22,6 @@ This is the implementation code for "Quantifying Point Contributions: A Lightwei
 
 ## Testing
 - Run `validation.py` for testing.
-- Test parameters include:
-
-    ```
-    options:
-      -h, --help                                           show this help message and exit
-      --q_type {range,knn,cluster,join}                    Type of query
-      --distri {data,gau}                                  Type of query distribution
-      --cr {0.0025,0.003,0.0035,0.004,0.0045,0.01,0.02}    Compression ratio
-    ```
-
 - The compressed results will be saved in `./SimpTraj`.
 - Query-related files will be saved in `./Val`.
 
