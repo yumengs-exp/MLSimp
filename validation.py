@@ -168,7 +168,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Test parameters.')
 
     parser.add_argument('--q_type', choices=['range', 'knn', 'cluster', 'join'], default='knn',help='Type of query')
-    parser.add_argument('--dataset', choices=['Geolife'], default='Geolife',help='dataset')
+    parser.add_argument('--dataset', choices=['Geolife','T-drive','OSM'], default='Geolife',help='dataset')
     parser.add_argument('--distri', choices=['data', 'gau'], default='gau',help='Type of query distribution')
     parser.add_argument('--cr', choices=[0.0025,0.003,0.0035,0.004,0.0045,0.01,0.02], default=0.0025, help='Compression ratio')
 
