@@ -25,3 +25,6 @@ This is the implementation code for "Quantifying Point Contributions: A Lightwei
 - The compressed results will be saved in `./SimpTraj`.
 - Query-related files will be saved in `./Val`.
 
+## Acknowledgements
+- https://github.com/zhengwang125/Query-TS
+- https://github.com/Shark-NLP/DiffuSeq
